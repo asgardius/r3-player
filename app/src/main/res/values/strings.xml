@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">The Red Robot Radio</string>
+    <string name="heading">Services In Android</string>
+    <string name="startButtonText">Start the Service</string>
+    <string name="stopButtonText">Stop the Service</string>
+    <string name="secret">Midori Asgardius</string>
+    <string name="stationinfo">choose a station</string>
+    <string name="buffering">Conecting</string>
+    <string name="connfail">Connection failed</string>
+    <string name="newstext">News</string>
+    <string name="stoptext">Stop</string>
+    <string name="noinfo">No Info</string>
+    <string name="newsportal">http://127.0.0.1/news</string>
+    <string name="st1name">Station 1</string>
+    <string name="st1url">http://127.0.0.1/1</string>
+    <string name="st2name">Station 2</string>
+    <string name="st2url">http://127.0.0.1/2</string>
+    <string name="st3name">Station 3</string>
+    <string name="st3url">http://127.0.0.1/3</string>
+    <string name="st4name">Station 4</string>
+    <string name="st4url">http://127.0.0.1/4</string>
+    <string name="st5name">Station 5</string>
+    <string name="st5url">http://127.0.0.1/5</string>
+    <string name="st6name">Station 6</string>
+    <string name="st6url">http://127.0.0.1/6</string>
+</resources>

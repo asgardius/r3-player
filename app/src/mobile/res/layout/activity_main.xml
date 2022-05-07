@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/stationname"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/stationinfo"
+        android:textAlignment="center"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/trackname"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="2dp"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <Button
+            android:id="@+id/r3news"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="?attr/colorOnBackground"
+            android:text="@string/newstext" />
+        <!--<Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Play"/>-->
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="?attr/colorOnBackground"
+            android:text="@string/stoptext" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="2dp"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <Button
+            android:id="@+id/st1button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="?attr/colorOnBackground"
+            android:text="@string/st1name"/>
+
+        <Button
+            android:id="@+id/st2button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="?attr/colorOnBackground"
+            android:text="@string/st2name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="2dp"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <Button
+            android:id="@+id/st3button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="?attr/colorOnBackground"
+            android:text="@string/st3name"/>
+
+        <Button
+            android:id="@+id/st4button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="?attr/colorOnBackground"
+            android:text="@string/st4name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="2dp"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <Button
+            android:id="@+id/st5button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="?attr/colorOnBackground"
+            android:text="@string/st5name"/>
+
+        <Button
+            android:id="@+id/st6button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="?attr/colorOnBackground"
+            android:text="@string/st6name" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/telescope"
+        android:contentDescription="@string/app_name"
+        tools:ignore="MissingConstraints" />
+
+
+
+</LinearLayout>
